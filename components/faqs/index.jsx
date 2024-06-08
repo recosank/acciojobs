@@ -3,19 +3,19 @@ import React from 'react';
 const Faqs = () => {
   return (
     <>
-    <div className='2xl:mx-24 xl:mx-20 lg:mx-20 md:mx-20 sm:mx-10 mx-5  mt-[7rem]'>
+    <div className='2xl:mx-24 xl:mx-20 lg:mx-20 md:mx-20 sm:mx-10 mx-5 mb-16 mt-10'>
         <div className="accordion">
-          <h4 className='banergradienttext mb-2 text-center'>HAVE ANY DOUBTS?</h4>
-          <h2 className='mb-8 text-center'>Frequently Asked Questions</h2>
+          <h2 className='banergradienttext mb-2 text-center'>HAVE ANY DOUBTS?</h2>
+          <h1 className='text-[40px] font-bold mb-8'>Frequently Asked Questions</h1>
           {accordionData.map((item, index) => (
             <div className="accordion-item" key={index}>
               <input type="checkbox" id={`accordion${index + 1}`} />
               <label htmlFor={`accordion${index + 1}`} className="accordion-item-title">
                 <span className="icon"></span>
-                <h4>{item.title}</h4>
+                {item.title}
               </label>
               <div className="accordion-item-desc">
-               <p>{item.content}</p> 
+                {item.content}
               </div>
             </div>
           ))}

@@ -23,22 +23,13 @@ const Nav = () => {
                     <div className="dropdown">
                       <ul>
                         <li className="dropdown-link">
-                          <a href="#">IIT Guwahati Programs</a>
+                          <a href="#">UGC NET Paper 1</a>
                         </li>
                         <li className="dropdown-link">
-                          <a href="#">PG Diploma programs</a>
+                          <a href="#">UGC NET Paper 2</a>
                         </li>
                         <li className="dropdown-link">
-                          <a href="#">Classroom Programs</a>
-                        </li>
-                        <li className="dropdown-link">
-                          <a href="#">Mern Full Stack Development</a>
-                        </li>
-                        <li className="dropdown-link">
-                          <a href="#">Java Full Stack Development</a>
-                        </li>
-                        <li className="dropdown-link">
-                          <a href="#">Data Science And AI</a>
+                          <a href="#">UGC NET Mock Test Series</a>
                         </li>
                         <div className="arrow"></div>
                       </ul>

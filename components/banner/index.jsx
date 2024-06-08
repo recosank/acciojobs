@@ -8,10 +8,10 @@ import banerlogo4 from "../../public/svg/banerlogo4.svg";
 import linkdinsvg from "../../public/svg/linkdin1.svg";
 
 const stats = [
-  { logo: banerlogo1, value: '1500+', label: 'Students Placed' },
-  { logo: banerlogo2, value: '41LPA', label: 'Highest Salary' },
-  { logo: banerlogo3, value: '450+', label: 'Partner companies' },
-  { logo: banerlogo4, value: '7.2 LPA', label: 'Average Salary' },
+  { logo: banerlogo1, value: '1500+', label: 'Whatsapp' },
+  { logo: banerlogo2, value: '41LPA', label: 'Facebook' },
+  { logo: banerlogo3, value: '450+', label: 'Call' },
+  // { logo: banerlogo4, value: '7.2 LPA', label: 'Average Salary' },
 ];
 
 const Herosection = () => {
@@ -20,8 +20,8 @@ const Herosection = () => {
     <>
     <div className='grid grid-cols-1 lg:grid-cols-12 2xl:mx-24 xl:mx-20 lg:mx-20 md:mx-20 sm:mx-10 mx-5 gap-14'> 
       <div className='col-span-1 lg:col-span-7'>
-        <div className='mt-[10rem]'>
-          <h1>
+        <div className='mt-[9rem]'>
+          <h1 className=''>
             Ignite Your <span className='text-[#51a9ff]'>Tech Career</span> <br />
             Today: Learn, Grow, and Get Placed
           </h1>
@@ -54,9 +54,9 @@ const Herosection = () => {
           </button>
         </div>
       </div>
-      <div className='col-span-1 lg:col-span-5 mt-[9rem] '>
+      <div className='col-span-1 lg:col-span-5 mt-32 mb-5'>
         <div className='bg-[#fff] py-16 px-12 banerformshadow rounded-[30px] text-center'>
-          <h4 className='mb-6'>Start learning for <span className='#2f80ed'>FREE</span></h4>
+          <h4 className='mb-6'>Start learning</h4>
           <p className='text-gray-400 pb-8'>Lectures & Assignments curated by Top Tech <br/> Professionals</p>
           <form>
           <div className="mb-4 flex justify-center">
@@ -104,11 +104,11 @@ const Herosection = () => {
                   type="submit"
                   className="bggradient w-full text-white font-extrabold py-6 px-7 rounded-[0.30rem] focus:outline-none focus:shadow-outline flex justify-center items-center hover:shadow-xl"
                 >
-                 Apply Now For Free  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6"><path d="m8.25 4.5 7.5 7.5-7.5 7.5" /></svg>
+                 Apply Now  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6"><path d="m8.25 4.5 7.5 7.5-7.5 7.5" /></svg>
                 </button>
               </div>
           </form>
-          <h4 className='mt-5'>By clicking ‘Apply Now For Free’, you agree to our <br/>
+          <h4 className='mt-5'>By clicking ‘Apply Now’, you agree to our <br/>
           <span className='text-[#2f80ed]'>Terms & Conditions</span> </h4>
         </div>
       </div>
