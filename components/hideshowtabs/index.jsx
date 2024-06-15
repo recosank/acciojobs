@@ -15,7 +15,8 @@ const Hideshowtabs = () => {
   
   return (
    <>
-      <div className='2xl:mx-24 xl:mx-20 lg:mx-20 md:mx-20 sm:mx-10 mx-5 mb-16 mt-10 text-center'>
+   <div className='bg-[#2ab0e4] mt-28 pt-20 pb-20 '>
+      <div className='2xl:mx-24 xl:mx-20 lg:mx-20 md:mx-20 sm:mx-10 mx-20 text-center'>
           <h2 className='banergradienttext mb-2 '>ONE-STOP LEARNING PLATFORM</h2>
           <h1 className='text-[36px] font-bold mb-3'>Everything you need to crack your <span className='text-[#2f80ed]'>Dream Job</span></h1>
           <p className='text-lg font-semibold'>You will have access to Live Doubt Solving, 1-on-1 Practice Interviews, Weekly Contests, Our Placement Portal and More!</p>
@@ -81,10 +82,10 @@ const Hideshowtabs = () => {
           >
             {/* <p>{content.text}</p> */}
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-14'>
-                    <div className='text-start'>
+                    <div className='text-start  text-[#fff] '>
                        {/* <h4 className=' text-amber-500 text-xl font-bold'>{content.heading}</h4>   */}
                        <h4 className={`text-xl font-bold`} style={{ color: content.headingColor }}>{content.heading}</h4>
-                   <h2 className='font-bold text-black text-[36px] py-5'>{content.subheading}</h2>
+                   <h2 className='font-bold text-[#fff] text-[36px] py-5'>{content.subheading}</h2>
                     <p className='text-lg'>{content.paragraph}</p> 
                     </div>
                    <div>
@@ -96,6 +97,7 @@ const Hideshowtabs = () => {
       </div>
     </div>
     </div>
+   </div>
    </div>
    </>
   )

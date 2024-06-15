@@ -6,12 +6,12 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import Image from 'next/image';
-import cardimg from "../../public/images/cardimg.jpg";
+// import cardimg from "../../public/images/cardimg.jpg";
 
 const Cards = () => {
   return (
     <>
-    <div className='2xl:mx-24 xl:mx-20 lg:mx-20 md:mx-20 sm:mx-10 mx-5 mb-16 mt-10'>
+    <div className='2xl:mx-24 xl:mx-20 lg:mx-20 md:mx-20 sm:mx-10 mx-5 mb-16 mt-28'>
     <h4 className='banergradienttext text-xl mb-2'>MENTORS & INSTRUCTORS AT ACCIOJOB</h4>
       <h1 className='text-[36px] font-bold mb-8'>India’s <span className='text-[#2f80ed]'>Top Instructors</span>  to <br/> help you reach your full <br/> potential</h1>
      <div>

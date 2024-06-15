@@ -3,7 +3,7 @@ import React from 'react';
 const Faqs = () => {
   return (
     <>
-    <div className='2xl:mx-24 xl:mx-20 lg:mx-20 md:mx-20 sm:mx-10 mx-5 mb-16 mt-10'>
+    <div className='2xl:mx-24 xl:mx-20 lg:mx-20 md:mx-20 sm:mx-10 mx-5 mb-16 mt-28'>
         <div className="accordion">
           <h2 className='banergradienttext mb-2 text-center'>HAVE ANY DOUBTS?</h2>
           <h1 className='text-[40px] font-bold mb-8'>Frequently Asked Questions</h1>
@@ -15,7 +15,11 @@ const Faqs = () => {
                 {item.title}
               </label>
               <div className="accordion-item-desc">
-                {item.content}
+                <ul>
+                  <li className=' list-disc text-lg'>
+                     {item.content}
+                  </li>
+                </ul>
               </div>
             </div>
           ))}
@@ -27,33 +31,38 @@ const Faqs = () => {
 
 const accordionData = [
   {
-    title: 'What is SEO, and why is it important for online businesses?',
-    content: 'SEO, or Search Engine Optimization, is the practice of optimizing a website to improve its visibility on search engines like Google. It involves various techniques to enhance a site\'s ranking in search results. SEO is crucial for online businesses as it helps drive organic traffic, increases visibility, and ultimately leads to higher conversions.',
+    title: ' What is the duration of the UGC NET Preparation Courses?',
+    content: ' Paper 1 Course: 3 months , Paper 2 Course: 6 months , Mock Test Series: Ongoing until the UGC NET exam date',
   },
   {
-    title: 'How long does it take to see results from SEO efforts?',
-    content: 'The timeline for seeing results from SEO can vary based on several factors, such as the competitiveness of keywords, the current state of the website, and the effectiveness of the SEO strategy. Generally, it may take several weeks to months before noticeable improvements occur. However, long-term commitment to SEO is essential for sustained success.',
+    title: 'Are the lectures live or recorded?',
+    content: ' Our courses feature live lectures from top educators, which are also recorded and made available for review at any time.',
   },
   {
-    title: 'What are the key components of a successful SEO strategy?',
-    content: 'A successful SEO strategy involves various components, including keyword research, on-page optimization, quality content creation, link building, technical SEO, and user experience optimization. These elements work together to improve a website\'s relevance and authority in the eyes of search engines.',
+    title: 'How does the 24/7 doubt-solving support work?',
+    content: 'You can get your queries resolved anytime through our chat and email support, as well as dedicated doubt-solving forums monitored by subject experts.',
   },
   {
-    title: 'How does mobile optimization impact SEO?',
-    content: 'Mobile optimization is crucial for SEO because search engines prioritize mobile-friendly websites. With the increasing use of smartphones, search engines like Google consider mobile responsiveness as a ranking factor. Websites that provide a seamless experience on mobile devices are more likely to rank higher in search results.',
+    title: 'What subjects are available for UGC NET Paper 2?',
+    content: 'We offer preparation for a wide range of subjects including Economics, Political Science, Philosophy, Psychology, Sociology, History, Anthropology, Commerce, Management, Education, Social Work, Public Administration, Hindi, English, and many more.',
   },
   {
-    title: 'What is the role of backlinks in SEO, and how can they be acquired?',
-    content: 'Backlinks, or inbound links from other websites to yours, play a significant role in SEO. They are considered a vote of confidence and can improve a site\'s authority. Quality over quantity is crucial when acquiring backlinks. Strategies for obtaining backlinks include creating high-quality content, guest posting, reaching out to industry influencers, and participating in community activities. It\'s important to focus on natural and ethical link-building practices.',
+    title: 'How does the personalized attention in small batch sizes benefit me?',
+    content: ' Smaller batch sizes ensure individualized guidance, better interaction with educators, and enhanced peer learning, allowing for a more tailored and effective learning experience.',
   },
   {
-    title: 'What is the role of backlinks in SEO, and how can they be acquired?',
-    content: 'Backlinks, websites to yours, play a significant role in SEO. They are considered a vote of confidence and can improve a site\'s authority. Quality over quantity is crucial when acquiring backlinks. Strategies for obtaining backlinks include creating high-quality content, guest posting, reaching out to industry influencers, and participating in community activities. It\'s important to focus on natural and ethical link-building practices.',
+    title: 'What types of practice questions and quizzes are included?',
+    content: 'Our courses include a comprehensive question bank with extensive practice questions, regular quizzes, detailed solutions, and mock tests designed to simulate real exam conditions.',
   },
   {
-    title: 'What is the role of backlinks in SEO, and how can they be acquired?',
-    content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum cupiditate unde ut aperiam consequuntur sed impedit quia voluptates enim non optio exercitationem veritatis, natus necessitatibus assumenda labore voluptatum nihil quibusdam!',
+    title: 'How is my performance analyzed during the course?',
+    content: 'We provide detailed feedback on your performance through progress tracking and performance reports, helping you identify strengths and areas for improvement. Personalized improvement plans are also offered based on your performance.',
   },
+
+  {
+    title: " What happens if I miss a live lecture?",
+    content: 'If you miss a live lecture, you can access the recorded session at your convenience. All live sessions are recorded and made available for review.',
+  }
 ];
 
 export default Faqs;
