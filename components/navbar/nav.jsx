@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
-import topbarlogo from "../../public/svg/prepsathilogo1.svg"
+import topbarlogo from "../../public/svg/prepsathilogo1.svg";
+import Link from 'next/link';
 
 const Nav = () => {
   return (
@@ -42,7 +43,7 @@ const Nav = () => {
                     <a href="#">AccioJob Reviews</a>
                   </li>
                    <li className="nav-link" style={{ '--i': '1.35s' }}>
-                    <a href="#">Placements Highlights</a>
+                    <Link href="/contactus">Contact Us</Link>
                   </li>
                   <li className="nav-link" style={{ '--i': '1.35s' }}>
                     <a href="#">Refer & Earn</a>
